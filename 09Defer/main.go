@@ -38,3 +38,12 @@ func closefile(f *os.File) {
 		os.Exit(1)
 	}
 }
+
+/*
+Output:
+creating file
+writing file
+closing file
+
+
+*/
