@@ -14,11 +14,6 @@ type User struct {
 	Age  int
 }
 
-type Person struct {
-	Name string
-	Age  int
-}
-
 func main() {
 	x := 10
 	p := &x // p stores the address of x
